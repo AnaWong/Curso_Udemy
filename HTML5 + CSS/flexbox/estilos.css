@@ -1,0 +1,104 @@
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+}
+
+.border {
+	border: 2px #000 solid;
+}
+
+.h-200 {
+	height: 200px;
+}
+
+.h-700 {
+
+	height: 700px;
+}
+
+.item {
+	background-color: peru;
+	text-align: center;
+	border: 2px #000 solid;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	/* width: 200px; */
+}
+
+
+.flex-container {
+	display: flex;
+
+	/*invierte el orden de lo elementos de derecha ha izquierda*/
+	/* flex-direction: row-reverse; */
+
+	/* distribucion x defecto, de izquierda a derecha*/
+	/* flex-direction: row; */
+
+	/* distribucion de los elementos de abajo hacia arriba*/
+	/* flex-direction: column; */
+
+	/* para hacer que los item se ajusten en el espacio que tiene determinado y 
+	deacuerdo a su ancho, haciendo que caiga */
+	flex-wrap: wrap;
+
+	/*alineacion horizontal  */
+	/* justify-content: center; */
+
+	/*para trabajar la posicion de una fila*/
+	/* align-items: center; */
+
+	/*alineacion vertical, cuando se trata mas de una fila */
+	/* align-content: space-between; */
+
+	align-items: flex-end;
+
+}
+
+
+.align-self-start {
+	align-self: flex-start;
+}
+
+
+.order-1 {
+	order: 0;
+}
+
+.order-2 {
+	order: 2;
+}
+
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.flex-grow-2 {
+	flex-grow: 3;
+}
+
+.flex-shrink-0 {
+	width: 700px;
+	flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+
+	flex-basis: 50%;
+}
+
+
+
+.flex-1 {
+	flex: 1;
+	/*flex-grow | flex-shrink | flex-basis;*/
+}
+
+.flex-2 {
+	flex: 1 1 300px;
+	/*flex-grow | flex-shrink | flex-basis;*/
+}
